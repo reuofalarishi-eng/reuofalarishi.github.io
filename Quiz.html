@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Discover Your Potential!</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Learnify</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./About-us.html">About Us</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="./Courses.html">All Courses</a></li>
+            <li><a href="./AI.html">AI</a></li>
+            <li><a href="./DataScience.html">Data Science</a></li>
+            <li><a href="./SoftwareENG.html">Software Engineering</a></li>
+            <li><a href="./Cyber.html">Cyber Security</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="./Quiz.html">Discover Yourself!</a></li>
+        <li><a href="./Contact-us.html">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ <h2>Take this quiz to know what you're into !</h2>
+    <section>
+      <form id="cs-quiz">
+
+  <h3>1. When you think about your future, what attracts you the most?</h3>
+  <label><input type="radio" name="q1" value="AI" required> Building intelligent systems that understand and predict</label><br>
+  <label><input type="radio" name="q1" value="Software"> Developing applications and websites</label><br>
+  <label><input type="radio" name="q1" value="Data"> Analyzing data and extracting insights</label><br>
+  <label><input type="radio" name="q1" value="Cyber"> Protecting systems from attacks</label><br>
+
+  <h3>2. Which task do you enjoy the most?</h3>
+  <label><input type="radio" name="q2" value="AI" required> Training a model to learn from data</label><br>
+  <label><input type="radio" name="q2" value="Software"> Writing code and building features</label><br>
+  <label><input type="radio" name="q2" value="Data"> Analyzing numbers and charts</label><br>
+  <label><input type="radio" name="q2" value="Cyber"> Finding vulnerabilities in systems</label><br>
+
+  <h3>3. How do you approach problems?</h3>
+  <label><input type="radio" name="q3" value="AI" required> I think logically and design smart algorithms</label><br>
+  <label><input type="radio" name="q3" value="Software"> I break the problem down and code a solution</label><br>
+  <label><input type="radio" name="q3" value="Data"> I search the data for patterns or causes</label><br>
+  <label><input type="radio" name="q3" value="Cyber"> I think about how systems could be hacked or broken</label><br>
+
+  <h3>4. Which subject interests you the most?</h3>
+  <label><input type="radio" name="q4" value="AI" required> Artificial Intelligence / Machine Learning</label><br>
+  <label><input type="radio" name="q4" value="Software"> Programming / Software Development</label><br>
+  <label><input type="radio" name="q4" value="Data"> Statistics / Data Analysis</label><br>
+  <label><input type="radio" name="q4" value="Cyber"> Cybersecurity / Networking</label><br>
+
+  <h3>5. What type of projects do you prefer?</h3>
+  <label><input type="radio" name="q5" value="AI" required> Chatbots or smart recommendation systems</label><br>
+  <label><input type="radio" name="q5" value="Software"> A full website or application</label><br>
+  <label><input type="radio" name="q5" value="Data"> Dashboards and data visualization</label><br>
+  <label><input type="radio" name="q5" value="Cyber"> Security systems or penetration testing</label><br>
+
+  <h3>6. What excites you the most?</h3>
+  <label><input type="radio" name="q6" value="AI" required> How computers “think”</label><br>
+  <label><input type="radio" name="q6" value="Software"> Building something from scratch</label><br>
+  <label><input type="radio" name="q6" value="Data"> Extracting meaning from data</label><br>
+  <label><input type="radio" name="q6" value="Cyber"> Protecting systems</label><br>
+
+  <h3>7. If you have free time, you would:</h3>
+  <label><input type="radio" name="q7" value="AI" required> Learn about AI models</label><br>
+  <label><input type="radio" name="q7" value="Software"> Work on a new programming project</label><br>
+  <label><input type="radio" name="q7" value="Data"> Analyze a dataset</label><br>
+  <label><input type="radio" name="q7" value="Cyber"> Practice ethical hacking</label><br>
+
+  <h3>8. Which description fits you best?</h3>
+  <label><input type="radio" name="q8" value="AI" required> Creative + Curious</label><br>
+  <label><input type="radio" name="q8" value="Software"> Practical + Builder</label><br>
+  <label><input type="radio" name="q8" value="Data"> Analytical + Numbers-oriented</label><br>
+  <label><input type="radio" name="q8" value="Cyber"> Cautious + Loves challenges</label><br>
+
+  <h3>9. How do you like to see your results?</h3>
+  <label><input type="radio" name="q9" value="AI" required> A system that learns and improves</label><br>
+  <label><input type="radio" name="q9" value="Software"> A working application</label><br>
+  <label><input type="radio" name="q9" value="Data"> Clear reports and insights</label><br>
+  <label><input type="radio" name="q9" value="Cyber"> A secure system with no vulnerabilities</label><br>
+
+  <h3>10. What is your main goal?</h3>
+  <label><input type="radio" name="q10" value="AI" required> Contribute to the future of intelligent tech</label><br>
+  <label><input type="radio" name="q10" value="Software"> Build products that people use</label><br>
+  <label><input type="radio" name="q10" value="Data"> Help make decisions based on data</label><br>
+  <label><input type="radio" name="q10" value="Cyber"> Protect information and systems</label><br>
+
+  <input type="submit" value="Submit">
+</form>
+    </section>
+    <footer><p><em>&copy; 2026 Learnify</em></p></footer>
+
+</body>
+</html>

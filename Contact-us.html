@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Contact Us page</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Learnify</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./About-us.html">About Us</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="./Courses.html">All Courses</a></li>
+            <li><a href="./AI.html">AI</a></li>
+            <li><a href="./DataScience.html">Data Science</a></li>
+            <li><a href="./SoftwareENG.html">Software Engineering</a></li>
+            <li><a href="./Cyber.html">Cyber Security</a></li>
+          </ul>
+        </li>
+        <li><a href="./Quiz.html">Discover Yourself!</a></li>
+        <li class="active"><a href="./Contact-us.html">Contact Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section>
+    <h2>Contact Us !</h2>
+    <h3> Please fill out this form </h3>
+    <form action="#" method="post">
+
+        
+        <label>First Name:</label><br>
+        <input type="text" name="first_name" placeholder="Your first Name" required autofocus><br><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" name="last_name" placeholder="Your last name" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+
+       
+        <label>Phone Number:</label><br>
+        <input type="tel" name="mobile" placeholder=" e.g. : 0509206412" required maxlength="10" minlength="10"><br><br>
+
+        
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob" required><br><br>
+
+        
+        <label>Email Address:</label><br>
+        <input type="email" name="email" required placeholder="e.g. : rrhhff@gmail.com"><br><br>
+
+        
+        <label>Preferred Language:</label><br>
+        <select name="language">
+            <option value="arabic">Arabic</option>
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="Spanish">Spanish</option>
+        </select><br><br>
+
+        <label> Education</label><br>
+        <select >
+         <option value=" AI">AI</option>
+         <option value=" Data Science ">Data Science</option>
+         <option value=" Software Engineering"> Software Engineering</option>
+         <option value=" Cyber Security">Cyber Security</option>
+        <option value="other">Other</option>     
+        </select><br><br>
+       
+        <label>Message:</label><br>
+        <textarea name="message" rows="5" cols="30"></textarea><br><br>
+
+       
+        <input type="submit" value="Submit">
+
+    </form>
+</section>
+    <footer><p><em>&copy; 2026 Learnify</em></p></footer>
+</body>
+</html>
